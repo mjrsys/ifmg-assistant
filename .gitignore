@@ -1,0 +1,50 @@
+.env
+venv/
+__pycache__/
+*.pyc
+suap_token.json
+database/*.db
+security/*.key
+logs/
+
+# Variáveis de ambiente e segredos
+.env.*
+!.env.example
+
+# Bancos de dados e arquivos auxiliares
+*.db
+*.db-wal
+*.db-shm
+
+# Backups e arquivos compactados
+backups/
+*.tar.gz
+*.zip
+
+# Arquivos de restauração e testes locais
+testes/restauracao/
+
+# Chaves e certificados
+*.key
+*.pem
+
+# Ambientes virtuais
+.venv/
+
+# Logs
+*.log
+
+# Cópias antigas e scripts auxiliares locais
+bot_backup.py
+suap_backup.py
+script*.py
+inspecionar_*.py
+investigar_*.py
+
+# Scripts antigos de diagnóstico (somente raiz)
+/testar_api.py
+/testar_boletim.py
+/testar_formatacao.py
+/testar_oauth.py
+/testar_periodos.py
+/testar_usuario.py
